@@ -7,6 +7,8 @@
   "author": "G.Kawin <g.kawin@live.com>",
   "license": "MIT",
   "peerDependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
     "@typescript-eslint/eslint-plugin": "^1.5.0",
     "@typescript-eslint/parser": "^1.5.0",
     "eslint": ">=5.15.0",
