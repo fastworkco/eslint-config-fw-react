@@ -12,15 +12,16 @@ yarn add eslint eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier
 
 Second, Install the package by following below
 ```
-yarn add @fastwork/eslint-config-react-typescript -D
+yarn add @fastworkco/eslint-config-react-typescript -D
 ```
 
 After that, Go to `.eslintrc.js` or `.eslintrc` file.
 And then, Puts script on the `extends` key like this
 ```js
-  "extends": "@fastwork/eslint-config-react-typescript"
+  "extends": "@fastworkco/eslint-config-react-typescript"
 ```
-8. After that, Go to the VSCode setting (workspace/user) setting file and put the configuration into the setting file.
+
+After that, Go to the VSCode setting (workspace/user) setting file and put the configuration into the setting file.
 ```json
 {
   "eslint.autoFixOnSave": true,

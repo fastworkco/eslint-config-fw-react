@@ -1,6 +1,6 @@
 {
-  "name": "@fastwork/eslint-config-react-typescript",
-  "version": "1.0.0",
+  "name": "@fastworkco/eslint-config-react-typescript",
+  "version": "1.0.2",
   "description": "Fastwork linter rule configuration for React",
   "main": "index.js",
   "repository": {
@@ -27,9 +27,9 @@
     "typescript": ">=3.3"
   },
   "bugs": {
-    "url": "https://github.com/fastworkco/eslint-config-react-typescript.git"
+    "url": "https://github.com/fastworkco/eslint-config-react-typescript/issues"
   },
-  "homepage": "https://github.com/fastworkco/eslint-config-react-typescript.git#readme",
+  "homepage": "https://github.com/fastworkco/eslint-config-react-typescript#readme",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
