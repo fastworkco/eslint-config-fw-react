@@ -1,12 +1,17 @@
 {
-  "name": "@fastwork/eslint-config-react",
+  "name": "@fastworkco/eslint-config-react",
   "version": "1.0.0",
   "description": "Fastwork linter rule configuration for React",
   "main": "index.js",
-  "repository": "https://github.com/fastworkco/eslint-config-fw-react.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastworkco/eslint-config-fw-react.git"
+  },
   "author": "G.Kawin <g.kawin@live.com>",
   "license": "MIT",
   "peerDependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
     "@typescript-eslint/eslint-plugin": "^1.5.0",
     "@typescript-eslint/parser": "^1.5.0",
     "eslint": ">=5.15.0",
@@ -20,5 +25,19 @@
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4",
     "typescript": ">=3.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fastworkco/eslint-config-fw-react/issues"
+  },
+  "homepage": "https://github.com/fastworkco/eslint-config-fw-react#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "typescript",
+    "prettier"
+  ]
 }
