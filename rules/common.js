@@ -7,9 +7,5 @@ module.exports = {
     "require-await": "error",
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
-    "sort-imports": [
-      "error",
-      { memberSyntaxSortOrder: ["all", "single", "multiple", "none"] }
-    ],
   }
 }

@@ -7,7 +7,7 @@ Installation
 
 First, Install peer dependencies
 ```
-yarn add eslint eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react prettier typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser @types/react @types/react-dom eslint-config-airbnb eslint-config-prettier eslint-plugin-import -D
+yarn add eslint eslint-plugin-jsx-a11y eslint-import-resolver-typescript eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react prettier typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser @types/react @types/react-dom eslint-config-airbnb eslint-config-prettier eslint-plugin-import -D
 ```
 
 Second, Install the package by following below
