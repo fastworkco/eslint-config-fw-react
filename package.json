@@ -1,6 +1,6 @@
 {
   "name": "@fastworkco/eslint-config-react-typescript",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fastwork linter rule configuration for React",
   "main": "index.js",
   "repository": {
