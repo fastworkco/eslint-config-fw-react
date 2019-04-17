@@ -12,7 +12,6 @@ module.exports = {
     "./rules/typescript",
     "./rules/react",
     "./rules/prettier",
-    "./rules/a11y",
   ].map(require.resolve),
   globals: {
     Atomics: "readonly",
